@@ -1,0 +1,163 @@
+.welcome-banner {
+  width: 100%;
+  min-height: 650px;
+  background: url("../img/bg.jpg") center bottom;
+  position: relative; }
+@media(min-width: 1360px){
+  .welcome-banner{
+    background-size: cover;
+  }
+}
+
+@media (max-width: 47.5em) {
+    .welcome-banner {
+      background-size: cover;
+      min-height: 950px; }
+
+	  .welcome-banner-content {
+      top: 40px !important;
+
+}
+
+.business-registration-banner {
+  width: 100%;
+  min-height: 1250px !important;
+  background: url("../img/bg.jpg") center bottom;
+  position: relative; }
+
+}
+}
+
+.welcome-banner-content {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 70%;
+    margin: 0 15%;
+    padding: 8rem 0;
+}
+
+.welcome-banner-content .banner-title {
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.9rem;
+}
+
+.welcome-banner-content p {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.business-registration-banner {
+  width: 100%;
+  min-height: 1000px;
+  background: url("../img/bg.jpg") center bottom;
+  position: relative; }
+
+  .login-registration-banner {
+  width: 100%;
+  min-height: 700px;
+  background: url("../img/bg.jpg") center bottom;
+  position: relative; }
+
+.footer {
+    width: 100%;
+    margin-top: -1px; !important;
+}
+
+
+.fa {
+	color: #e5e5e5 !important;
+}
+
+.looking-for .pills .pill a:hover{
+	color:#c5c3c6;
+}
+.looking-for .pills .pill:hover{
+	background-color:#5c6b73;
+}
+
+.black {
+	background: #000000 !important;
+}
+
+.violet-text {
+	color: #adb5bd !important;
+}
+
+.white {
+	color: #fff !important;
+}
+
+.btn {
+
+border: none;
+}
+
+.btn:hover {
+	background: #5c6b73;
+}
+
+
+.home-start-here {
+		display: inline;
+	}
+@media only screen and (max-width: 600px) {
+	.login-close {
+		display: none !important;
+	}
+
+.index-banner {
+    width: 100%;
+    min-height: 950px !important;
+    background: url(../img/bg.jpg) center bottom;
+    position: relative;
+}
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+.index-banner {
+    width: 100%;
+    min-height: 850px !important;
+    background: url(../img/bg.jpg) center bottom;
+    position: relative;
+}
+
+
+}
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+
+.beacon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #00a550 !important;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+
+.footer .footer-sec .footer-social i:hover {
+    color: #ff008f;
+}
+
+.dark-blue-text {
+	color: #001360;
+}
